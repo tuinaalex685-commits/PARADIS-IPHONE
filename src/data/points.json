@@ -1,0 +1,752 @@
+{
+"/images/finitions/iphone-11/black.webp": {
+"photo": [
+28.1,
+19.2
+],
+"logo": [
+36.2,
+50.0
+]
+},
+"/images/finitions/iphone-11/green.webp": {
+"photo": [
+28.1,
+19.2
+],
+"logo": [
+36.2,
+50.1
+]
+},
+"/images/finitions/iphone-11/purple.webp": {
+"photo": [
+28.1,
+19.2
+],
+"logo": [
+36.2,
+50.0
+]
+},
+"/images/finitions/iphone-11/red.webp": {
+"photo": [
+28.1,
+19.2
+],
+"logo": [
+36.2,
+50.0
+]
+},
+"/images/finitions/iphone-11/white.webp": {
+"photo": [
+28.1,
+19.2
+],
+"logo": [
+36.2,
+50.0
+]
+},
+"/images/finitions/iphone-11/yellow.webp": {
+"photo": [
+28.1,
+19.2
+],
+"logo": [
+36.2,
+50.0
+]
+},
+"/images/finitions/iphone-12-pro/blue.webp": {
+"photo": [
+29.6,
+21.2
+],
+"logo": [
+37.1,
+50.0
+]
+},
+"/images/finitions/iphone-12-pro/gold.webp": {
+"photo": [
+29.5,
+21.2
+],
+"logo": [
+37.0,
+50.0
+]
+},
+"/images/finitions/iphone-12-pro/graphite.webp": {
+"photo": [
+29.6,
+21.2
+],
+"logo": [
+37.1,
+50.0
+]
+},
+"/images/finitions/iphone-12-pro/silver.webp": {
+"photo": [
+29.6,
+21.2
+],
+"logo": [
+37.1,
+50.0
+]
+},
+"/images/finitions/iphone-12/black.webp": {
+"photo": [
+29.6,
+21.3
+],
+"logo": [
+37.1,
+50.0
+]
+},
+"/images/finitions/iphone-12/blue.webp": {
+"photo": [
+29.6,
+21.3
+],
+"logo": [
+37.1,
+50.0
+]
+},
+"/images/finitions/iphone-12/green.webp": {
+"photo": [
+29.6,
+21.3
+],
+"logo": [
+37.1,
+50.0
+]
+},
+"/images/finitions/iphone-12/purple.webp": {
+"photo": [
+29.6,
+21.4
+],
+"logo": [
+37.1,
+50.0
+]
+},
+"/images/finitions/iphone-12/red.webp": {
+"photo": [
+29.6,
+21.3
+],
+"logo": [
+37.1,
+50.0
+]
+},
+"/images/finitions/iphone-12/white.webp": {
+"photo": [
+29.6,
+21.4
+],
+"logo": [
+37.1,
+50.0
+]
+},
+"/images/finitions/iphone-13-pro/blue.webp": {
+"photo": [
+32.0,
+26.5
+],
+"logo": [
+38.6,
+50.1
+]
+},
+"/images/finitions/iphone-13-pro/gold.webp": {
+"photo": [
+32.0,
+26.5
+],
+"logo": [
+38.6,
+50.1
+]
+},
+"/images/finitions/iphone-13-pro/graphite.webp": {
+"photo": [
+32.0,
+26.5
+],
+"logo": [
+38.6,
+50.1
+]
+},
+"/images/finitions/iphone-13-pro/green.webp": {
+"photo": [
+32.0,
+26.4
+],
+"logo": [
+38.6,
+50.0
+]
+},
+"/images/finitions/iphone-13-pro/silver.webp": {
+"photo": [
+32.0,
+26.5
+],
+"logo": [
+38.6,
+50.1
+]
+},
+"/images/finitions/iphone-13/blue.webp": {
+"photo": [
+33.2,
+26.5
+],
+"logo": [
+39.4,
+50.1
+]
+},
+"/images/finitions/iphone-13/midnight.webp": {
+"photo": [
+33.2,
+26.5
+],
+"logo": [
+39.4,
+50.1
+]
+},
+"/images/finitions/iphone-13/pink.webp": {
+"photo": [
+33.2,
+26.5
+],
+"logo": [
+39.4,
+50.1
+]
+},
+"/images/finitions/iphone-13/product-red.webp": {
+"photo": [
+33.2,
+26.5
+],
+"logo": [
+39.4,
+50.1
+]
+},
+"/images/finitions/iphone-13/starlight.webp": {
+"photo": [
+33.2,
+26.5
+],
+"logo": [
+39.4,
+50.1
+]
+},
+"/images/finitions/iphone-14-pro/deeppurple.webp": {
+"photo": [
+27.1,
+20.9
+],
+"logo": [
+35.5,
+50.0
+]
+},
+"/images/finitions/iphone-14-pro/gold.webp": {
+"photo": [
+27.1,
+20.9
+],
+"logo": [
+35.5,
+50.0
+]
+},
+"/images/finitions/iphone-14-pro/silver.webp": {
+"photo": [
+27.1,
+20.9
+],
+"logo": [
+35.5,
+50.0
+]
+},
+"/images/finitions/iphone-14-pro/spaceblack.webp": {
+"photo": [
+27.1,
+20.9
+],
+"logo": [
+35.5,
+50.0
+]
+},
+"/images/finitions/iphone-15-pro/blacktitanium.webp": {
+"photo": [
+27.2,
+21.0
+],
+"logo": [
+35.5,
+50.0
+]
+},
+"/images/finitions/iphone-15-pro/bluetitanium.webp": {
+"photo": [
+27.2,
+21.0
+],
+"logo": [
+35.5,
+50.0
+]
+},
+"/images/finitions/iphone-15-pro/naturaltitanium.webp": {
+"photo": [
+27.2,
+21.0
+],
+"logo": [
+35.5,
+50.0
+]
+},
+"/images/finitions/iphone-15-pro/whitetitanium.webp": {
+"photo": [
+27.2,
+21.0
+],
+"logo": [
+35.5,
+50.0
+]
+},
+"/images/finitions/iphone-16-plus/black.webp": {
+"photo": [
+20.0,
+32.6
+],
+"logo": [
+31.1,
+50.0
+]
+},
+"/images/finitions/iphone-16-plus/pink.webp": {
+"photo": [
+20.0,
+32.6
+],
+"logo": [
+31.1,
+50.0
+]
+},
+"/images/finitions/iphone-16-plus/teal.webp": {
+"photo": [
+20.0,
+32.6
+],
+"logo": [
+31.1,
+50.0
+]
+},
+"/images/finitions/iphone-16-plus/ultramarine.webp": {
+"photo": [
+20.0,
+32.6
+],
+"logo": [
+31.1,
+50.0
+]
+},
+"/images/finitions/iphone-16-plus/white.webp": {
+"photo": [
+20.0,
+32.6
+],
+"logo": [
+31.1,
+50.0
+]
+},
+"/images/finitions/iphone-16-pro-max/blacktitanium.webp": {
+"photo": [
+20.0,
+32.6
+],
+"logo": [
+31.1,
+50.0
+]
+},
+"/images/finitions/iphone-16-pro-max/deserttitanium.webp": {
+"photo": [
+20.0,
+32.6
+],
+"logo": [
+31.1,
+50.0
+]
+},
+"/images/finitions/iphone-16-pro-max/naturaltitanium.webp": {
+"photo": [
+20.0,
+32.6
+],
+"logo": [
+31.1,
+50.0
+]
+},
+"/images/finitions/iphone-16-pro-max/whitetitanium.webp": {
+"photo": [
+20.0,
+32.6
+],
+"logo": [
+31.1,
+50.0
+]
+},
+"/images/finitions/iphone-16/black.webp": {
+"photo": [
+20.0,
+32.6
+],
+"logo": [
+31.1,
+50.0
+]
+},
+"/images/finitions/iphone-16/pink.webp": {
+"photo": [
+20.0,
+32.6
+],
+"logo": [
+31.1,
+50.0
+]
+},
+"/images/finitions/iphone-16/teal.webp": {
+"photo": [
+20.0,
+32.6
+],
+"logo": [
+31.1,
+50.0
+]
+},
+"/images/finitions/iphone-16/ultramarine.webp": {
+"photo": [
+20.0,
+32.6
+],
+"logo": [
+31.1,
+50.0
+]
+},
+"/images/finitions/iphone-16/white.webp": {
+"photo": [
+20.0,
+32.6
+],
+"logo": [
+31.1,
+50.0
+]
+},
+"/images/finitions/iphone-17-pro/cosmicorange.webp": {
+"photo": [
+26.3,
+19.8
+],
+"logo": [
+35.0,
+50.0
+]
+},
+"/images/finitions/iphone-17-pro/deepblue.webp": {
+"photo": [
+26.3,
+19.8
+],
+"logo": [
+35.0,
+50.0
+]
+},
+"/images/finitions/iphone-17-pro/silver.webp": {
+"photo": [
+26.3,
+19.8
+],
+"logo": [
+35.0,
+50.0
+]
+},
+"/images/finitions/iphone-18-pro/black.webp": {
+"photo": [
+25.8,
+19.9
+],
+"logo": [
+34.8,
+50.0
+]
+},
+"/images/finitions/iphone-18-pro/burgundy.webp": {
+"photo": [
+25.8,
+19.9
+],
+"logo": [
+34.8,
+50.0
+]
+},
+"/images/finitions/iphone-18-pro/glacier.webp": {
+"photo": [
+25.8,
+19.9
+],
+"logo": [
+34.8,
+50.0
+]
+},
+"/images/finitions/iphone-18-pro/silver.webp": {
+"photo": [
+25.8,
+19.9
+],
+"logo": [
+34.8,
+50.0
+]
+},
+"/images/finitions/iphone-7-plus/black.webp": {
+"photo": [
+24.3,
+19.0
+],
+"logo": [
+33.8,
+50.0
+]
+},
+"/images/finitions/iphone-7-plus/gold.webp": {
+"photo": [
+24.3,
+19.0
+],
+"logo": [
+33.8,
+50.0
+]
+},
+"/images/finitions/iphone-7-plus/jetblack.webp": {
+"photo": [
+24.3,
+19.0
+],
+"logo": [
+33.8,
+50.0
+]
+},
+"/images/finitions/iphone-7-plus/rosegold.webp": {
+"photo": [
+24.3,
+19.0
+],
+"logo": [
+33.8,
+50.0
+]
+},
+"/images/finitions/iphone-7-plus/silver.webp": {
+"photo": [
+24.4,
+19.0
+],
+"logo": [
+33.9,
+50.0
+]
+},
+"/images/finitions/iphone-air/cloudwhite.webp": {
+"photo": [
+32.9,
+19.2
+],
+"logo": [
+39.1,
+50.0
+]
+},
+"/images/finitions/iphone-air/lightgold.webp": {
+"photo": [
+32.9,
+19.2
+],
+"logo": [
+39.1,
+50.0
+]
+},
+"/images/finitions/iphone-air/skyblue.webp": {
+"photo": [
+32.9,
+19.2
+],
+"logo": [
+39.1,
+50.0
+]
+},
+"/images/finitions/iphone-air/spaceblack.webp": {
+"photo": [
+32.9,
+19.2
+],
+"logo": [
+39.1,
+50.0
+]
+},
+"/images/finitions/iphone-se/midnight.webp": {
+"photo": [
+32.6,
+23.7
+],
+"logo": [
+39.0,
+50.0
+]
+},
+"/images/finitions/iphone-se/red.webp": {
+"photo": [
+32.6,
+23.7
+],
+"logo": [
+39.0,
+50.0
+]
+},
+"/images/finitions/iphone-se/starlight.webp": {
+"photo": [
+32.6,
+23.7
+],
+"logo": [
+39.0,
+50.0
+]
+},
+"/images/finitions/iphone-x/silver.webp": {
+"photo": [
+33.9,
+26.2
+],
+"logo": [
+39.9,
+50.0
+]
+},
+"/images/finitions/iphone-x/spacegray.webp": {
+"photo": [
+33.9,
+26.2
+],
+"logo": [
+39.9,
+50.0
+]
+},
+"/images/finitions/iphone-xr/black.webp": {
+"photo": [
+31.7,
+19.0
+],
+"logo": [
+38.4,
+49.9
+]
+},
+"/images/finitions/iphone-xr/blue.webp": {
+"photo": [
+31.7,
+19.0
+],
+"logo": [
+38.4,
+49.9
+]
+},
+"/images/finitions/iphone-xr/coral.webp": {
+"photo": [
+31.7,
+19.0
+],
+"logo": [
+38.4,
+49.9
+]
+},
+"/images/finitions/iphone-xr/red.webp": {
+"photo": [
+31.7,
+19.0
+],
+"logo": [
+38.4,
+49.9
+]
+},
+"/images/finitions/iphone-xr/white.webp": {
+"photo": [
+31.7,
+19.0
+],
+"logo": [
+38.5,
+49.9
+]
+},
+"/images/finitions/iphone-xr/yellow.webp": {
+"photo": [
+31.7,
+19.0
+],
+"logo": [
+38.4,
+49.9
+]
+}
+}

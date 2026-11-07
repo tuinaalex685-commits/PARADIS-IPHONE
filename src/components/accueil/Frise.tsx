@@ -43,7 +43,7 @@ export function Frise() {
     <Link key={t.slug} href={`/telephone/${t.slug}`}
       className="group relative flex h-full w-[15.5rem] shrink-0 snap-start flex-col overflow-hidden rounded-[1.6rem] bg-white/[0.04] p-5 ring-1 ring-white/10 transition-[background-color,transform] duration-300 hover:-translate-y-1 hover:bg-white/[0.08] md:w-[19rem]">
       <span aria-hidden className="titre etroit pointer-events-none absolute -right-2 -top-3 text-[6.5rem] leading-none text-white/[0.07] transition-colors group-hover:text-accent-vif/20">{t.annee}</span>
-      <span className="relative mt-4 h-52 w-full md:h-64">
+      <span className="relative -mx-2 mt-2 min-h-0 flex-1">
         <Image src={visuel(t)} alt={t.nom} fill sizes="(min-width: 768px) 19rem, 15rem" className="object-contain drop-shadow-[0_24px_30px_rgba(0,0,0,0.5)] transition-transform duration-500 ease-[var(--ease-sortie)] group-hover:-translate-y-2 group-hover:-rotate-3 group-hover:scale-[1.05]" />
       </span>
       <span className="mt-auto pt-5">
@@ -58,18 +58,18 @@ export function Frise() {
 
   return (
     <section ref={zone} aria-labelledby="frise" className="sur-sombre relative bg-encre text-white" style={colle ? { height: `calc(100svh + ${distance}px)` } : undefined}>
-      <div className={colle ? 'sticky top-0 flex h-[100svh] flex-col justify-center overflow-hidden' : 'py-20'}>
+      <div className={colle ? 'sticky top-0 flex h-[100svh] flex-col justify-start overflow-hidden pb-6 pt-28' : 'py-20'}>
         <div className="conteneur flex flex-wrap items-end justify-between gap-6">
-          <h2 id="frise" className="titre max-w-3xl text-[clamp(2.2rem,5vw,4.6rem)]">Dix ans d’iPhone, rangés par génération.</h2>
+          <h2 id="frise" className="titre max-w-3xl text-[clamp(2rem,3.8vw,3.6rem)]">Dix ans d’iPhone, rangés par génération.</h2>
           <p className="max-w-xs text-white/60">{colle ? 'Faites défiler : les modèles avancent du plus récent au plus ancien.' : 'Faites glisser pour remonter le temps.'}</p>
         </div>
         {colle ? (
           <>
-            <motion.div ref={piste} style={{ x }} className="mt-10 flex h-[26rem] gap-4 pl-[max(1.25rem,calc((100vw-90rem)/2+2.5rem))] md:h-[30rem]">{cartes}</motion.div>
+            <motion.div ref={piste} style={{ x }} className="mt-8 flex h-[min(30rem,calc(100svh-17rem))] gap-4 pl-[max(1.25rem,calc((100vw-90rem)/2+2.5rem))] md:h-[30rem]">{cartes}</motion.div>
             <div className="conteneur mt-8"><div className="h-[3px] w-full overflow-hidden rounded-full bg-white/10"><motion.div className="h-full bg-accent-vif" style={{ width: barre }} /></div></div>
           </>
         ) : (
-          <div ref={piste} className="sans-barre mt-8 flex h-[24rem] snap-x snap-mandatory gap-3 overflow-x-auto scroll-pl-5 px-5" data-lenis-prevent>{cartes}</div>
+          <div ref={piste} className="sans-barre mt-8 flex h-[26rem] snap-x snap-mandatory gap-3 overflow-x-auto scroll-pl-5 px-5" data-lenis-prevent>{cartes}</div>
         )}
       </div>
     </section>

@@ -11,7 +11,8 @@ import { useBoutique } from '@/components/providers/Boutique';
 import { suivre } from '@/lib/analytics';
 import { classeBouton, Fleche } from '@/components/ui/Bouton';
 import { IconeWhatsApp } from '@/components/ui/BoutonWhatsApp';
-import { Scene } from './Scene';
+import { Scene, type Points } from './Scene';
+import POINTS from '@/data/points.json';
 import { PrixAnime } from './Prix';
 import { Bulle, useGuide } from './Guide';
 
@@ -104,8 +105,15 @@ export function Configurateur({ t }: { t: Telephone }) {
       {/* SCÈNE — collée pendant le défilement sur tablette et ordinateur */}
       <div className="md:sticky md:top-24 md:col-span-6 md:self-start lg:col-span-7">
         <div className="relative overflow-hidden rounded-[var(--radius-carte)] bg-surface ring-1 ring-filet">
-          <Scene src={image} alt={`${t.nom}${couleur ? `, finition ${couleur.nom}` : ''}`} teinte={couleur?.hex ?? '#b4832a'} cle={image} sens={sens}
-            onGlisse={vues.length > 1 ? changerVue : undefined} priorite className="aspect-square w-full md:aspect-[4/4.4] lg:aspect-[5/4.6]" />
+          <Scene src={image} alt={`${t.nom}${couleur ? `, finition ${couleur.nom}` : ''}`} teinte={couleur?.hex ?? '#1f4fd8'} cle={image} sens={sens}
+            onGlisse={vues.length > 1 ? changerVue : undefined} priorite className="aspect-square w-full md:aspect-[4/4.4] lg:aspect-[5/4.6]"
+            points={vue === 0 ? (POINTS as unknown as Record<string, Points>)[image] : undefined}
+            etapes={[
+              { titre: 'Vue d’ensemble', detail: `${t.nom}${couleur ? `, ${couleur.nom}` : ''}` },
+              { titre: 'Appareil photo', detail: t.specs.photo },
+              { titre: 'La finition', detail: couleur ? `${couleur.nom}, photo officielle` : 'Photo officielle' },
+              { titre: 'Allumage', detail: t.specs.ecran ? `Écran ${t.specs.ecran}` : `Puce ${t.specs.puce}` },
+            ]} />
           <div className="absolute inset-x-4 top-4 flex items-start justify-between">
             <AnimatePresence mode="wait">
               <motion.p key={couleur?.nom ?? 'x'} initial={{ opacity: 0, y: -6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 6 }} transition={{ duration: 0.25 }}

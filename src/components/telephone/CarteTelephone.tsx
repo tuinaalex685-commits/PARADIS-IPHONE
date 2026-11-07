@@ -28,7 +28,7 @@ export function CarteTelephone({ t, sombre = false, priorite = false }: { t: Tel
 
       <div className="relative aspect-[4/4.2] [perspective:900px]">
         <AnimatePresence mode="popLayout" initial={false}>
-          <motion.div key={image} className="absolute inset-[9%_12%]" initial={{ opacity: 0, rotateY: -35 }} animate={{ opacity: 1, rotateY: 0 }} exit={{ opacity: 0, rotateY: 35 }} transition={{ duration: 0.35, ease: [0.2, 0.8, 0.2, 1] }}>
+          <motion.div key={image} className="absolute inset-[3%_5%_1%]" initial={{ opacity: 0, rotateY: -35 }} animate={{ opacity: 1, rotateY: 0 }} exit={{ opacity: 0, rotateY: 35 }} transition={{ duration: 0.35, ease: [0.2, 0.8, 0.2, 1] }}>
             <Image src={image} alt={`${t.nom}${t.couleurs[fin] ? `, ${t.couleurs[fin].nom}` : ''}`} fill priority={priorite} sizes="(min-width: 1024px) 24vw, (min-width: 768px) 40vw, 80vw"
               className="object-contain drop-shadow-[0_24px_24px_rgba(0,0,0,0.18)] transition-transform duration-500 ease-[var(--ease-sortie)] group-hover:-translate-y-2 group-hover:scale-[1.04] group-hover:-rotate-2" />
           </motion.div>
