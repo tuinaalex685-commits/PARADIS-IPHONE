@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+/*
+ * PARADIS DES TÉLÉPHONES — système visuel « la vitrine »
+ *
+ * Le décor vient des photos officielles elles-mêmes : les rendus Apple sont posés sur blanc
+ * porcelaine ou sur noir pur. Le site reprend ces deux matières (porcelaine claire pour flâner,
+ * noir pur pour les moments forts) et UN accent bleu cobalt, net comme un écran.
+ * Une seule famille, Archivo, dont on fait varier la LARGEUR : large pour les titres (ingénierie,
+ * précision), étroite pour les grands chiffres (prix, capacités). Pas de police « code ».
+ */
+@theme {
+  --color-fond: #f1f1ee;          /* porcelaine */
+  --color-fond-2: #e6e6e1;
+  --color-surface: #fbfbf9;
+  --color-filet: #d6d6cf;
+  --color-encre: #000000;         /* noir pur : texte fort et panneaux « écrin » */
+  --color-encre-2: #151515;
+  --color-texte: #1d1d1b;
+  --color-sourdine: #5c5c56;      /* 6,4:1 sur la porcelaine */
+  --color-sourdine-clair: #a5a59d;/* sur noir */
+  --color-accent: #1f4fd8;        /* bleu cobalt : l'unique accent (boutons clés, pastilles) — texte blanc dessus 6,4:1 */
+  --color-accent-fonce: #1838a6;  /* bleu lisible en texte sur la porcelaine (8:1) */
+  --color-accent-clair: #e3e9fb;
+  --color-accent-vif: #8aa8ff;    /* bleu lumineux sur le noir */
+  --color-action: #000000;
+  --color-action-fonce: #262626;
+  --color-succes: #2d6a4a;
+  --color-erreur: #a8361f;
+
+  --font-display: var(--font-archivo), system-ui, sans-serif;
+  --font-sans: var(--font-archivo), system-ui, sans-serif;
+
+  --radius-ctrl: 14px;
+  --radius-carte: 26px;
+
+  --ease-sortie: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-cinema: cubic-bezier(0.65, 0, 0.15, 1);
+
+  --animate-defile: defile 42s linear infinite;
+  @keyframes defile { to { transform: translateX(-50%); } }
+}
+
+@layer base {
+  html { background: var(--color-fond); color: var(--color-texte); -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; }
+  body {
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    font-stretch: 100%;
+    background: var(--color-fond);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: var(--color-accent); color: #fff; }
+  :focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+  .sur-sombre :focus-visible { outline-color: var(--color-accent-vif); }
+  button, a, label { touch-action: manipulation; }
+}
+
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+@layer utilities {
+  /* Titres : Archivo large et serré. La largeur est le geste typographique de la marque. */
+  .titre { font-family: var(--font-display); font-weight: 760; font-stretch: 118%; letter-spacing: -0.035em; line-height: 0.94; }
+  /* Variante étroite : grands chiffres, prix, capacités — comme une étiquette de vitrine. */
+  .etroit { font-stretch: 72%; letter-spacing: -0.01em; }
+  /* Compatibilité avec les composants hérités : la ligne « accent » passe en étroit + laiton. */
+  .accent { font-stretch: 72%; font-weight: 600; letter-spacing: -0.01em; color: var(--color-accent-fonce); }
+  .sur-sombre .accent { color: var(--color-accent-vif); }
+  .etiquette { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.01em; }
+  .chiffres { font-variant-numeric: tabular-nums lining-nums; }
+  .conteneur { width: 100%; max-width: 90rem; margin-inline: auto; padding-inline: 1.25rem; }
+  @media (min-width: 768px) { .conteneur { padding-inline: 2.5rem; } }
+  .section { padding-block: 5rem; }
+  @media (min-width: 1024px) { .section { padding-block: 8rem; } }
+  /* Barres de défilement masquées pour les rubans horizontaux tactiles. */
+  .sans-barre { scrollbar-width: none; }
+  .sans-barre::-webkit-scrollbar { display: none; }
+  /* Zone sûre iOS (encoche, barre d'accueil). */
+  .bas-sur { padding-bottom: max(0.75rem, env(safe-area-inset-bottom)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}

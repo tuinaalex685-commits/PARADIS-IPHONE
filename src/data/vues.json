@@ -1,0 +1,175 @@
+{
+"iphone-11/black": [
+"/images/finitions/iphone-11/black.webp",
+"/images/finitions/iphone-11/black-vue2.webp",
+"/images/finitions/iphone-11/black-vue3.webp"
+],
+"iphone-11/white": [
+"/images/finitions/iphone-11/white.webp"
+],
+"iphone-12/black": [
+"/images/finitions/iphone-12/black.webp"
+],
+"iphone-12/blue": [
+"/images/finitions/iphone-12/blue.webp"
+],
+"iphone-12/green": [
+"/images/finitions/iphone-12/green.webp"
+],
+"iphone-12/purple": [
+"/images/finitions/iphone-12/purple.webp"
+],
+"iphone-12/red": [
+"/images/finitions/iphone-12/red.webp",
+"/images/finitions/iphone-12/red-vue3.webp"
+],
+"iphone-12/white": [
+"/images/finitions/iphone-12/white.webp"
+],
+"iphone-12-pro/blue": [
+"/images/finitions/iphone-12-pro/blue.webp",
+"/images/finitions/iphone-12-pro/blue-vue2.webp"
+],
+"iphone-12-pro/gold": [
+"/images/finitions/iphone-12-pro/gold.webp"
+],
+"iphone-12-pro/graphite": [
+"/images/finitions/iphone-12-pro/graphite.webp"
+],
+"iphone-12-pro/silver": [
+"/images/finitions/iphone-12-pro/silver.webp"
+],
+"iphone-13/blue": [
+"/images/finitions/iphone-13/blue.webp"
+],
+"iphone-13/midnight": [
+"/images/finitions/iphone-13/midnight.webp"
+],
+"iphone-13/pink": [
+"/images/finitions/iphone-13/pink.webp"
+],
+"iphone-13/product-red": [
+"/images/finitions/iphone-13/product-red.webp"
+],
+"iphone-13/starlight": [
+"/images/finitions/iphone-13/starlight.webp"
+],
+"iphone-13-pro/blue": [
+"/images/finitions/iphone-13-pro/blue.webp"
+],
+"iphone-13-pro/gold": [
+"/images/finitions/iphone-13-pro/gold.webp"
+],
+"iphone-13-pro/graphite": [
+"/images/finitions/iphone-13-pro/graphite.webp"
+],
+"iphone-13-pro/green": [
+"/images/finitions/iphone-13-pro/green.webp"
+],
+"iphone-13-pro/silver": [
+"/images/finitions/iphone-13-pro/silver.webp"
+],
+"iphone-14-pro/deeppurple": [
+"/images/finitions/iphone-14-pro/deeppurple.webp"
+],
+"iphone-14-pro/gold": [
+"/images/finitions/iphone-14-pro/gold.webp"
+],
+"iphone-14-pro/silver": [
+"/images/finitions/iphone-14-pro/silver.webp"
+],
+"iphone-14-pro/spaceblack": [
+"/images/finitions/iphone-14-pro/spaceblack.webp"
+],
+"iphone-15-pro/blacktitanium": [
+"/images/finitions/iphone-15-pro/blacktitanium.webp"
+],
+"iphone-15-pro/bluetitanium": [
+"/images/finitions/iphone-15-pro/bluetitanium.webp"
+],
+"iphone-15-pro/naturaltitanium": [
+"/images/finitions/iphone-15-pro/naturaltitanium.webp"
+],
+"iphone-15-pro/whitetitanium": [
+"/images/finitions/iphone-15-pro/whitetitanium.webp"
+],
+"iphone-16/black": [
+"/images/finitions/iphone-16/black.webp"
+],
+"iphone-16/pink": [
+"/images/finitions/iphone-16/pink.webp"
+],
+"iphone-16/teal": [
+"/images/finitions/iphone-16/teal.webp"
+],
+"iphone-16/ultramarine": [
+"/images/finitions/iphone-16/ultramarine.webp"
+],
+"iphone-16/white": [
+"/images/finitions/iphone-16/white.webp"
+],
+"iphone-16-pro-max/blacktitanium": [
+"/images/finitions/iphone-16-pro-max/blacktitanium.webp"
+],
+"iphone-16-pro-max/deserttitanium": [
+"/images/finitions/iphone-16-pro-max/deserttitanium.webp"
+],
+"iphone-16-pro-max/naturaltitanium": [
+"/images/finitions/iphone-16-pro-max/naturaltitanium.webp"
+],
+"iphone-16-pro-max/whitetitanium": [
+"/images/finitions/iphone-16-pro-max/whitetitanium.webp"
+],
+"iphone-17-pro/cosmicorange": [
+"/images/finitions/iphone-17-pro/cosmicorange.webp"
+],
+"iphone-17-pro/deepblue": [
+"/images/finitions/iphone-17-pro/deepblue.webp"
+],
+"iphone-17-pro/silver": [
+"/images/finitions/iphone-17-pro/silver.webp"
+],
+"iphone-18-pro/black": [
+"/images/finitions/iphone-18-pro/black.webp"
+],
+"iphone-18-pro/burgundy": [
+"/images/finitions/iphone-18-pro/burgundy.webp"
+],
+"iphone-18-pro/glacier": [
+"/images/finitions/iphone-18-pro/glacier.webp"
+],
+"iphone-18-pro/silver": [
+"/images/finitions/iphone-18-pro/silver.webp"
+],
+"iphone-air/cloudwhite": [
+"/images/finitions/iphone-air/cloudwhite.webp",
+"/images/finitions/iphone-air/cloudwhite-vue2.webp"
+],
+"iphone-air/lightgold": [
+"/images/finitions/iphone-air/lightgold.webp",
+"/images/finitions/iphone-air/lightgold-vue2.webp"
+],
+"iphone-air/skyblue": [
+"/images/finitions/iphone-air/skyblue.webp",
+"/images/finitions/iphone-air/skyblue-vue2.webp"
+],
+"iphone-air/spaceblack": [
+"/images/finitions/iphone-air/spaceblack.webp",
+"/images/finitions/iphone-air/spaceblack-vue2.webp"
+],
+"iphone-se/midnight": [
+"/images/finitions/iphone-se/midnight.webp",
+"/images/finitions/iphone-se/midnight-vue2.webp",
+"/images/finitions/iphone-se/midnight-vue3.webp"
+],
+"iphone-se/red": [
+"/images/finitions/iphone-se/red.webp",
+"/images/finitions/iphone-se/red-vue2.webp",
+"/images/finitions/iphone-se/red-vue3.webp"
+],
+"iphone-se/starlight": [
+"/images/finitions/iphone-se/starlight.webp",
+"/images/finitions/iphone-se/starlight-vue2.webp",
+"/images/finitions/iphone-se/starlight-vue3.webp"
+]
+}

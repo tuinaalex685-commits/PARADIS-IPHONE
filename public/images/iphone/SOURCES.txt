@@ -1,0 +1,28 @@
+Visuels officiels Apple Newsroom (usage prototype ; vérifier les conditions revendeur avant mise en ligne)
+iphone-18-pro-max.webp	1800x1286	https://www.apple.com/newsroom/images/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/article/Apple-iPhone-18-Pro-color-lineup-260909_big.jpg.large_2x.jpg
+iphone-18-pro-max-2.webp	1306x1829	https://www.apple.com/newsroom/images/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/article/Apple-iPhone-18-Pro-2up-260909_inline.jpg.large_2x.jpg
+iphone-17-pro.webp	1306x1306	https://www.apple.com/newsroom/images/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/article/Apple-iPhone-17-Pro-color-lineup-250909_inline.jpg.large_2x.jpg
+iphone-air.webp	1800x1286	https://www.apple.com/newsroom/images/2025/09/introducing-iphone-air-a-powerful-new-iphone-with-a-breakthrough-design/article/Apple-iPhone-Air-color-lineup-250909_big.jpg.large_2x.jpg
+iphone-air-2.webp	1800x1012	https://www.apple.com/newsroom/images/2025/09/introducing-iphone-air-a-powerful-new-iphone-with-a-breakthrough-design/article/Apple-iPhone-Air-hero-250909_big.jpg.large_2x.jpg
+iphone-16-pro.webp	1800x1199	https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/article/Apple-iPhone-16-Pro-finish-lineup-240909_big.jpg.large_2x.jpg
+iphone-16-pro-2.webp	1306x1828	https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/article/Apple-iPhone-16-Pro-hero-240909_inline.jpg.large_2x.jpg
+iphone-16.webp	1800x1199	https://www.apple.com/newsroom/images/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/article/Apple-iPhone-16-finish-lineup-240909_big.jpg.large_2x.jpg
+iphone-16-2.webp	1306x1828	https://www.apple.com/newsroom/images/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/article/Apple-iPhone-16-hero-240909_inline.jpg.large_2x.jpg
+iphone-15-pro.webp	1800x1199	https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-color-lineup-230912_big.jpg.large_2x.jpg
+iphone-15-pro-2.webp	1800x1013	https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.large_2x.jpg
+iphone-14-pro.webp	1800x1013	https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907_Full-Bleed-Image.jpg.large_2x.jpg
+iphone-13-pro.webp	1800x1440	https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-13-Pro_Colors_09142021_big.jpg.large_2x.jpg
+iphone-13.webp	1800x1199	https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iphone13_colors_09142021_big.jpg.large_2x.jpg
+iphone-13-2.webp	1306x1828	https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iphone13_hero_09142021_inline.jpg.large_2x.jpg
+iphone-12-pro.webp	1800x1012	https://www.apple.com/newsroom/images/product/iphone/standard/Apple_announce-iphone12pro_10132020_big.jpg.large_2x.jpg
+iphone-12.webp	1800x1286	https://www.apple.com/newsroom/images/product/iphone/standard/apple_iphone-12_color-blue_10132020_big_carousel.jpg.large_2x.jpg
+iphone-12-2.webp	1306x1828	https://www.apple.com/newsroom/images/product/iphone/standard/apple_iphone-12_2-up_10132020_inline.jpg.large_2x.jpg
+iphone-11.webp	1632x1316	https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iphone_11-family-lineup-091019_big.jpg.large_2x.jpg
+iphone-11-2.webp	1632x1632	https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iphone_11-rosette-family-lineup-091019_big.jpg.large_2x.jpg
+iphone-xr.webp	1142x1308	https://www.apple.com/newsroom/images/product/iphone/standard/iPhone_XR_blue-back_09122018_carousel.jpg.large_2x.jpg
+iphone-xr-2.webp	1142x1300	https://www.apple.com/newsroom/images/product/iphone/standard/iPhone_XR_double-back-white_09122018_inline.jpg.large_2x.jpg
+iphone-x.webp	1632x2400	https://www.apple.com/newsroom/images/product/iphone/standard/iphonex_front_back_glass_big.jpg.large_2x.jpg
+iphone-7-plus.webp	1142x896	https://www.apple.com/newsroom/images/product/iphone/standard/iphone7plus-lineup_inline.jpg.large_2x.jpg
+iphone-se.webp	1800x1012	https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhoneSE-hero-3up-220308_big.jpg.large_2x.jpg
+iphone-se-2.webp	1800x1199	https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhoneSE-color-lineup-4up-220308_big.jpg.large_2x.jpg
+samsung-s22-ultra.webp	https://img.us.news.samsung.com/us/wp-content/uploads/2022/02/09102511/Galaxy-S22-Ultra-scaled.jpg (Samsung Newsroom)
